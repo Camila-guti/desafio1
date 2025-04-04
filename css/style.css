@@ -1,62 +1,72 @@
+header {
+    background-image: url(/images/fondo.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    text-align:left;
+    padding-inline: 60px;
+    
+   
+
+
+}
+
+
+
+
 .titulo{
 
     color:rgb(0, 0, 0);
     
-    font-size: 44px;
-    padding-inline: 40px;
+    font-size: 70px;
+    padding-inline: 60px;
 }
 .titulo2{
 
     color:rgb(5, 2, 2);
     
-    font-size: 20px;
-    padding-inline: 40px;
+    font-size: 35px;
+    padding-inline: 60px;
 }
 
-.fondo{
 
-    background-color:rgba(226, 221, 219, 0.959);
 
-    font-size: 20px;
-    height: 150px;
-
-}
-
-.planta1, .planta2, .planta3 {
+.planta {
     padding-inline: 40px;
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
 }
 
 img {
     display: block;
     margin: 10px 0 10px 40px; /* arriba, derecha, abajo, izquierda */
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
 }
 
 /* Estilos para el contenedor principal */
 .contenedor {
-    width: 60%; /* Ajusta el ancho del contenido */
-    max-width: 800px; /* Ancho máximo para que no se expanda demasiado */
+    width: 80%; /* Ajusta el ancho del contenido */
+    
     background-color: white; /* Color de fondo para que resalte */
     margin: 20px auto; /* Centra el contenedor en la página */
+    
     padding: 20px; /* Espacio interno para que no esté pegado a los bordes */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Agrega sombra para un efecto elevado */
     border-radius: 10px; /* Bordes redondeados */
     position: relative; /* Necesario para que el banner se posicione dentro de él */
-}
+    height: 500%;
+} 
 
 
 .producto {
     display: flex; /* Acomoda los elementos en línea (imagen + texto) */
     align-items: center; /* Alinea verticalmente */
-    margin: 10px 40px; /* Espaciado entre productos */
+    margin: 20px 40px; /* Espaciado entre productos */
 }
 
 .producto img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
     margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
 
@@ -67,29 +77,34 @@ img {
 
 .nombre {
     font-weight: bold; /* Hace que el nombre se vea más destacado */
-    font-size: 16px;
-    color: #333;
+    font-size: 20px;
+    color: #000000;
+    gap: 5px;
+    margin-top: 0;
 }
 
 .precio {
-    font-size: 14px;
+    font-size: 16px;
     color: #0f0a0a;
+    gap: 5px;
+    margin-top: 0;
 }
 
-/* Estilos para el contenedor del banner */
-.banner-container {
-    position: absolute;
-    top: 20px; /* Coloca el banner a 20px desde la parte superior */
-    right: 20px; /* Coloca el banner a 20px desde la parte derecha */
-    width: auto; /* Mantiene el tamaño automático del banner */
-    height: auto; /* Ajusta la altura automáticamente */
-    z-index: 1; /* Asegura que esté encima de otros elementos */
-}
 
-/* Estilos para la imagen del banner */
-.banner {
-    width: 170px; /* Ajusta el tamaño del banner */
-    height: 145px; /* Mantiene la relación de aspecto */
-    margin-top: 35px;
+
+
+footer{
+   
+    background-color: rgba(190, 121, 29, 0.986);
+    text-align: center;
+    padding: 10px 0;
+    height: 30px; /* Solo queda una definición de altura */
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
+  
+
+
+
 
