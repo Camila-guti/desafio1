@@ -11,9 +11,6 @@ header {
 
 }
 
-
-
-
 .titulo{
 
     color:rgb(0, 0, 0);
@@ -44,24 +41,12 @@ img {
     height: 250px;
 }
 
-/* Estilos para el contenedor principal */
-.contenedor {
-    width: 80%; /* Ajusta el ancho del contenido */
-    
-    background-color: white; /* Color de fondo para que resalte */
-    margin: 20px auto; /* Centra el contenedor en la página */
-    
-    padding: 20px; /* Espacio interno para que no esté pegado a los bordes */
-    border-radius: 10px; /* Bordes redondeados */
-    position: relative; /* Necesario para que el banner se posicione dentro de él */
-    height: 500%;
-} 
 
 
 .producto {
-    display: flex; /* Acomoda los elementos en línea (imagen + texto) */
-    align-items: center; /* Alinea verticalmente */
-    margin: 20px 40px; /* Espaciado entre productos */
+    display: flex; 
+    align-items: center; 
+    margin: 20px 40px;
 }
 
 .producto img {
@@ -98,8 +83,8 @@ footer{
     background-color: rgba(190, 121, 29, 0.986);
     text-align: center;
     padding: 10px 0;
-    height: 30px; /* Solo queda una definición de altura */
-    display: flex; /* Activa flexbox */
+    height: 30px; 
+    display: flex; 
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
