@@ -1,15 +1,19 @@
 header {
-    background-image: url(/images/fondo.jpg);
+    background-image: url(/images/ojos-gato.jpg);
     background-size: cover;
     height: 200px;
     background-position: center;
     text-align:left;
     padding-inline: 60px;
     
-   
-
-
 }
+main{
+
+    background-color: rgb(221, 196, 209);
+}
+
+
+
 
 .titulo{
 
@@ -28,7 +32,7 @@ header {
 
 
 
-.planta {
+.gatitos {
     padding-inline: 40px;
     width: 250px;
     height: 250px;
@@ -41,15 +45,27 @@ img {
     height: 250px;
 }
 
+/* Estilos para el contenedor principal */
+.contenedor {
+    width: 80%; /* Ajusta el ancho del contenido */
+    
+    background-color: rgb(204, 195, 204); /* Color de fondo para que resalte */
+    margin: 20px auto; /* Centra el contenedor en la página */
+    
+    padding: 20px; /* Espacio interno para que no esté pegado a los bordes */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; /* Necesario para que el banner se posicione dentro de él */
+    height: 500%;
+} 
 
 
-.producto {
-    display: flex; 
-    align-items: center; 
-    margin: 20px 40px;
+.michi {
+    display: flex; /* Acomoda los elementos en línea (imagen + texto) */
+    align-items: center; /* Alinea verticalmente */
+    margin: 20px 40px; /* Espaciado entre productos */
 }
 
-.producto img {
+.michi img {
     width: 250px;
     height: 200px;
     margin-right: 20px; /* Espacio entre la imagen y el texto */
@@ -68,7 +84,7 @@ img {
     margin-top: 0;
 }
 
-.precio {
+.caracteristica {
     font-size: 16px;
     color: #0f0a0a;
     gap: 5px;
@@ -78,13 +94,17 @@ img {
 
 
 
+
+    
+  
+
 footer{
    
-    background-color: rgba(190, 121, 29, 0.986);
+    background-color: rgba(144, 93, 156, 0.986);
     text-align: center;
     padding: 10px 0;
-    height: 30px; 
-    display: flex; 
+    height: 30px; /* Solo queda una definición de altura */
+    display: flex; /* Activa flexbox */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
 }
