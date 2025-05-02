@@ -1,5 +1,5 @@
 header {
-    background-image: url(/images/fondo.jpg);
+    background-image: url(/images/fondosushi.jpg);
     background-size: cover;
     height: 200px;
     background-position: center;
@@ -63,14 +63,14 @@ img {
 .nombre {
     font-weight: bold; /* Hace que el nombre se vea más destacado */
     font-size: 20px;
-    color: #000000;
+    color: #ffffff;
     gap: 5px;
     margin-top: 0;
 }
 
 .precio {
     font-size: 16px;
-    color: #0f0a0a;
+    color: #fafafa;
     gap: 5px;
     margin-top: 0;
 }
@@ -80,7 +80,7 @@ img {
 
 footer{
    
-    background-color: rgba(190, 121, 29, 0.986);
+    background-color: rgba(127, 147, 212, 0.986);
     text-align: center;
     padding: 10px 0;
     height: 30px; 
@@ -89,7 +89,11 @@ footer{
     align-items: center; /* Centra verticalmente */
 }
   
+.bodysushi{
+    background-color: #000000;
 
+
+}
 
 
 
